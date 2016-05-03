@@ -1,0 +1,14 @@
+body {
+  font-family: メイリオ, "ＭＳ Ｐゴシック", Osaka;
+  color: #4c4c4c;
+  font-size: 12px;
+}
+h3 {
+  font-size: 14px;
+  color: #ddffdd;
+  padding: 5px;
+  border-top: 2px solid #4c6c4c;
+  border-bottom: 1px solid #4c6c4c;
+  border-left: 15px solid #4c6c4c;
+  background-color: #88aa88;
+}

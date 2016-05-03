@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ja" xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<title>ドラッグできる子ウィンドウ表示</title>
+<link href="style.css" type="text/css" rel="stylesheet" />
+<link href="drag.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="dom.js"></script>
+<script type="text/javascript" src="drag.js"></script>
+</head>
+
+<body>
+<h1>ドラッグできる子ウィンドウ表示</h1>
+<p>ボタンを押すと、ドラッグ可能な子ウィンドウが表示されます。<p>
+<div>
+  <input type="button" name="btn1" value="子ウィンドウ1" id="btn1" />
+  <input type="button" name="btn2" value="子ウィンドウ2" id="btn2" />
+  <input type="button" name="btn3" value="子ウィンドウ3" id="btn3" />
+</div>
+
+<!-- 子ウィンドウ1 -->
+<div id="win1" class="win_frame">
+  <div class="win_titlebar" id="win_titlebar1">
+    <img src="close.png" alt="閉じる" width="16" height="16" class="win_close" id="win_close1" />
+    What does DOM stand for?
+  </div>
+  <div class="win_msgarea">
+    The Document Object Model. This means that we are developing a model in which the document or Web page contains objects (elements, links, etc.) that can be manipulated. 
+    <div class="right"><a href="http://www.w3.org/DOM/faq.html#what">続き&gt;&gt;</a></div>
+  </div>
+</div>
+<!-- 子ウィンドウ2 -->
+<div id="win2" class="win_frame">
+  <div class="win_titlebar" id="win_titlebar2">
+    <img src="close.png" alt="閉じる" width="16" height="16" class="win_close" id="win_close2" />
+    Why should I support or use the DOM?
+  </div>
+  <div class="win_msgarea">
+    The DOM API provides a standardized, versatile view of a document's contents. By supporting the DOM API, a program not only allows its data to be manipulated by other routines, but does so in a way that allows those manipulations to be reused with other DOMs, or to take advantage of solutions already written for those DOMs. 
+    <div class="right"><a href="http://www.w3.org/DOM/faq.html#whybother">続き&gt;&gt;</a></div>
+  </div>
+</div>
+<!-- 子ウィンドウ3 -->
+<div id="win3" class="win_frame">
+  <div class="win_titlebar" id="win_titlebar3">
+    <img src="close.png" alt="閉じる" width="16" height="16" class="win_close" id="win_close3" />
+    What is the difference between DHTML and the DOM?
+  </div>
+  <div class="win_msgarea">
+    Dynamic HTML (DHTML) is a term used by some vendors to describe the combination of HTML, style sheets and scripts that allows documents to be animated. The scripting interfaces provided in DHTML have a significant overlap with the DOM, particularly with the HTML module.
+    <div class="right"><a href="http://www.w3.org/DOM/faq.html#DHTML-DOM">続き&gt;&gt;</a></div>
+  </div>
+</div>
+</body>
+
+</html>

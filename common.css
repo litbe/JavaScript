@@ -1,0 +1,43 @@
+body {
+  font-family: メイリオ, "ＭＳ Ｐゴシック", Osaka;
+  color: #4c4c4c;
+  font-size: 12px;
+}
+h1 {
+  font-family: メイリオ, "ＭＳ Ｐゴシック", Osaka;
+  font-size: 18px;
+}
+h2 {
+  font-family: メイリオ, "ＭＳ Ｐゴシック", Osaka;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 12px;
+}
+h3 {
+  font-family: メイリオ, "ＭＳ Ｐゴシック", Osaka;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+h4 {
+  font-size: 12px; margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+ul {
+font-size: 12px;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+a:hover {
+color:#FF0000;
+text-decoration: underline;
+font-size: 12px;
+}
+a {
+text-decoration: none;
+font-size: 12px;
+}
+#foot {
+  height: 1024px;
+}

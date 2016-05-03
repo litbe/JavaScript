@@ -1,0 +1,89 @@
+/* ファンシーチェックボックス */
+.fancy_checkbox {
+  vertical-align: middle;
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+}
+/* ファンシーチェックラジオボタン */
+.fancy_radio {
+  vertical-align: middle;
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+}
+
+/* ファンシーセレクト */
+.fancy_select {
+  cursor: pointer;
+}
+/* ファンシーセレクト左側 */
+.fancy_select_left {
+  width: 10px;
+  height: 21px;
+  float: left;
+  background-image: url(select_l.png);
+}
+/* ファンシーセレクト右側 */
+.fancy_select_right {
+  width: 21px;
+  height: 21px;
+  float: left;
+  background-image: url(select_r.png);
+  background-repeat: repeat-x;
+}
+/* ファンシーセレクト中央 */
+.fancy_select_middle {
+  font-size: 12px;
+  height: 21px;
+  float: left;
+  background-image: url(select_m.png);
+  line-height: 21px;
+}
+* html .fancy_select_middle { /* IE6 */
+  padding-top: 4px;
+}
+/* ファンシーセレクト・アイコン */
+.fancy_select_icon {
+  padding-left: 3px;
+  padding-right: 3px;
+  width: 21px;
+  height: 14px;
+  vertical-align: middle;
+}
+/* ファンシーセレクト・テキスト */
+.fancy_select_text {
+  vertical-align: middle;
+}
+/* ファンシーセレクト・プルダウンメニュー */
+.fancy_select_pulldown {
+  border-right: 1px solid #888888;
+  border-left: 1px solid #ffffff;
+  cursor: pointer;
+}
+/* ファンシーセレクト・プルダウンメニュー項目 */
+/* （未選択項目） */
+.fancy_select_item {
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #888888;
+  background-color: #eeeeee;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+* html .fancy_select_item { /* IE6 */
+  height: 18px;
+  padding-top: 3px;
+}
+/* ファンシーセレクト・プルダウンメニュー項目 */
+/* （マウスオーバー時） */
+.fancy_select_item_mouseover {
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #888888;
+  background-color: #ffffff;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+* html .fancy_select_item_mouseover { /* IE6 */
+  height: 18px;
+  padding-top: 3px;
+}

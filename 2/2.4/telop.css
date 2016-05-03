@@ -1,0 +1,16 @@
+#telop {
+  overflow: hidden;
+  position: relative;
+  border: 2px solid #888888;
+  width: 200px;
+  height: 18px;
+  background-color: #000000;
+}
+
+#telop_content {
+  position: absolute;
+  color: #ffda90;
+  white-space: nowrap;
+  padding-top: 2px;
+  display: none;
+}

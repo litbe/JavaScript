@@ -1,0 +1,8 @@
+#box {
+  background-color: #eeeeee;
+  border: 1px solid #4c4c4c;
+  width: 230px;
+  padding: 12px;
+  text-align: center;
+  cursor: pointer;
+}
